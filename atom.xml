@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[张玉博客]]></title>
+  <link href="http://yuzhangjob.github.io/atom.xml" rel="self"/>
+  <link href="http://yuzhangjob.github.io/"/>
+  <updated>2013-09-17T00:13:04+08:00</updated>
+  <id>http://yuzhangjob.github.io/</id>
+  <author>
+    <name><![CDATA[张玉(Yu Zhang)]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[hello]]></title>
+    <link href="http://yuzhangjob.github.io/blog/2013/09/17/hello/"/>
+    <updated>2013-09-17T00:04:00+08:00</updated>
+    <id>http://yuzhangjob.github.io/blog/2013/09/17/hello</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+</feed>
