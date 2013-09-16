@@ -4,7 +4,7 @@
   <title><![CDATA[张玉博客]]></title>
   <link href="http://yuzhangjob.github.io/atom.xml" rel="self"/>
   <link href="http://yuzhangjob.github.io/"/>
-  <updated>2013-09-17T00:36:31+08:00</updated>
+  <updated>2013-09-17T00:38:33+08:00</updated>
   <id>http://yuzhangjob.github.io/</id>
   <author>
     <name><![CDATA[张玉(Yu Zhang)]]></name>
@@ -18,28 +18,7 @@
     <link href="http://yuzhangjob.github.io/blog/2013/09/17/math/"/>
     <updated>2013-09-17T00:34:00+08:00</updated>
     <id>http://yuzhangjob.github.io/blog/2013/09/17/math</id>
-    <content type="html"><![CDATA[<p>$$
-\begin{align*}
-  &amp; \phi(x,y) = \phi \left(\sum<em>{i=1}^n x_ie_i, \sum</em>{j=1}^n y_je_j \right)
-  = \sum<em>{i=1}^n \sum</em>{j=1}^n x_i y_j \phi(e_i, e_j) = \
-  &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}</p>
-
-<pre><code>  \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
-  \vdots &amp; \ddots &amp; \vdots \\
-  \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
-\end{array} \right)
-</code></pre>
-
-<p>  \left( \begin{array}{c}</p>
-
-<pre><code>  y_1 \\
-  \vdots \\
-  y_n
-\end{array} \right)
-</code></pre>
-
-<p>\end{align*}
-$$</p>
+    <content type="html"><![CDATA[<p>你们好吗</p>
 ]]></content>
   </entry>
   
