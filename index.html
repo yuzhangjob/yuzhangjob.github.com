@@ -9,8 +9,8 @@
   <meta name="author" content="张玉(Yu Zhang)">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="$$
+\begin{align*} &amp; \phi(x,y) = \phi \left(\sum{i=1}^n x_ie_i, \sum{j=1}^n y_je_j \right) = \sum{i=1}^n \sum{j=1}^n x_i y_j \phi(e_i, e_j) = \ & &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -30,6 +30,37 @@
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
   
 
@@ -66,6 +97,63 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/09/17/math/">Math</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-09-17T00:34:00+08:00" pubdate data-updated="true">Sep 17<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>$$
+\begin{align*}
+  &amp; \phi(x,y) = \phi \left(\sum<em>{i=1}^n x_ie_i, \sum</em>{j=1}^n y_je_j \right)
+  = \sum<em>{i=1}^n \sum</em>{j=1}^n x_i y_j \phi(e_i, e_j) = \
+  &amp; (x_1, \ldots, x_n) \left( \begin{array}{ccc}</p>
+
+<pre><code>  \phi(e_1, e_1) &amp; \cdots &amp; \phi(e_1, e_n) \\
+  \vdots &amp; \ddots &amp; \vdots \\
+  \phi(e_n, e_1) &amp; \cdots &amp; \phi(e_n, e_n)
+\end{array} \right)
+</code></pre>
+
+<p>  \left( \begin{array}{c}</p>
+
+<pre><code>  y_1 \\
+  \vdots \\
+  y_n
+\end{array} \right)
+</code></pre>
+
+<p>\end{align*}
+$$</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -150,6 +238,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/09/17/math/">Math</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/09/17/how-are-you/">How Are You</a>
