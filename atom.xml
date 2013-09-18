@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[张玉博客]]></title>
+  <title><![CDATA[张老师的博客]]></title>
   <link href="http://yuzhangjob.github.io/atom.xml" rel="self"/>
   <link href="http://yuzhangjob.github.io/"/>
-  <updated>2013-09-17T00:45:58+08:00</updated>
+  <updated>2013-09-18T09:13:16+08:00</updated>
   <id>http://yuzhangjob.github.io/</id>
   <author>
-    <name><![CDATA[张玉(Yu Zhang)]]></name>
+    <name><![CDATA[张老师(Mr. Zhang)]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
